@@ -565,29 +565,29 @@ ul.social-buttons {
   font-weight: 700;
   padding: 20px 40px;
   border-radius: 3px;
-  color: white;
+  color: black;
   border-color: white;
   background-color: white;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase; }
   .btn-xl.focus, .btn-xl:focus {
-    color: white;
+    color: black;
     border-color: #bfbfbf;
     background-color: #e6e6e6; }
   .btn-xl:hover {
-    color: white;
+    color: black;
     border-color: #e0e0e0;
     background-color: #e6e6e6; }
   .btn-xl.active, .btn-xl:active,
   .open > .btn-xl.dropdown-toggle {
-    color: white;
+    color: black;
     border-color: #e0e0e0;
     background-color: #e6e6e6; }
     .btn-xl.active.focus, .btn-xl.active:focus, .btn-xl.active:hover, .btn-xl:active.focus, .btn-xl:active:focus, .btn-xl:active:hover,
     .open > .btn-xl.dropdown-toggle.focus,
     .open > .btn-xl.dropdown-toggle:focus,
     .open > .btn-xl.dropdown-toggle:hover {
-      color: white;
+      color: black;
       border-color: #bfbfbf;
       background-color: #d4d4d4; }
   .btn-xl.active, .btn-xl:active,
@@ -601,4 +601,4 @@ ul.social-buttons {
     background-color: white; }
   .btn-xl .badge {
     color: white;
-    background-color: white; }
+    background-color: black; }
