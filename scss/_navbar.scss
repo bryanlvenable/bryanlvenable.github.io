@@ -1,4 +1,9 @@
 // Styling for the navbar
+@font-face {
+    font-family: "GeosansLight";
+    src: url('/fonts/GeosansLight.ttf') format("truetype");
+}
+
 #mainNav {
   background-color: $gray-darker;
   .navbar-toggler {
@@ -12,8 +17,8 @@
     @include heading-font;
   }
   .navbar-brand {
-    color: $theme-primary;
-    @include script-font;
+    color: white;
+    font-family: "GeosansLight";
     &.active,
     &:active,
     &:focus,
