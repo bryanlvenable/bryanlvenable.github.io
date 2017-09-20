@@ -63,9 +63,9 @@ body {
   font-family: "GeosansLight";
   src: url("/fonts/GeosansLight.ttf") format("truetype"); }
 
-#mainNav {
+#mainNav, #nav {
   background-color: #222222; }
-  #mainNav .navbar-toggler {
+  #mainNav .navbar-toggler, #nav .navbar-toggler {
     font-size: 12px;
     right: 0;
     padding: 13px;
@@ -75,12 +75,12 @@ body {
     background-color: white;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
-  #mainNav .navbar-brand {
+  #mainNav .navbar-brand, #nav .navbar-brand {
     color: white;
     font-family: "GeosansLight"; }
-    #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover, #nav .navbar-brand.active, #nav .navbar-brand:active, #nav .navbar-brand:focus, #nav .navbar-brand:hover {
       color: #e6e6e6; }
-  #mainNav .navbar-nav .nav-item .nav-link {
+  #mainNav .navbar-nav .nav-item .nav-link, #nav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;
     padding: 0.75em 0;
@@ -88,7 +88,7 @@ body {
     color: white;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
-    #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+    #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover, #nav .navbar-nav .nav-item .nav-link.active, #nav .navbar-nav .nav-item .nav-link:hover {
       color: white; }
 
 @media (min-width: 992px) {
@@ -487,9 +487,11 @@ section#contact {
 
 footer {
   padding: 25px 0;
-  text-align: center; }
+  text-align: center;
+  background-color: #222222; }
   footer span.copyright {
     font-size: 90%;
+    color: white;
     line-height: 40px;
     text-transform: none;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
